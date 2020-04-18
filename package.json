@@ -5,6 +5,7 @@
   "author": "",
   "license": "MIT",
   "scripts": {
+    "dev": "webpack-dev-server --mode development",
     "start": "webpack --mode development --watch",
     "build": "webpack --mode production"
   },
@@ -18,7 +19,8 @@
     "babel-plugin-transform-react-pug": "^7.0.1",
     "styled-components": "^5.1.0",
     "webpack": "^4.42.1",
-    "webpack-cli": "^3.3.11"
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
   },
   "dependencies": {
     "axios": "^0.19.2",
@@ -26,7 +28,8 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-redux": "^7.2.0",
-    "react-router-dom": "^5.1.2",
+    "react-router": "^6.0.0-alpha.3",
+    "react-router-dom": "^6.0.0-alpha.3",
     "redux": "^4.0.5",
     "redux-devtools-extension": "^2.13.8",
     "redux-thunk": "^2.3.0"
